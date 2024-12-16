@@ -54,7 +54,7 @@ pipeline {
 
         stage('PushDockerImage') {
             steps {
-                sh 'cd py_continuous_integration; docker push cbagade/cont-i-img:v5'
+                sh 'cd py_continuous_integration; docker push yogesh071/cont-i-img:v5'
             }
         }
     }
